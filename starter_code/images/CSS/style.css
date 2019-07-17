@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    height: 100px;
+
+    border-bottom: yellow solid;
+}
+.logo{
+    color: yellow;
+    font-size: 40px;
+    padding: 20px;
+}
+nav{
+    align-items: flex-end;
+
+}
+nav ul li{
+
+display: inline;
+color: white
+}
+.taste{
+    text-decoration: steelblue;
+    color: aliceblue;
+    text-align: center;
+}
+main{
+    image-
+}
