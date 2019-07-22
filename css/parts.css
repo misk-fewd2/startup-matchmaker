@@ -1,0 +1,64 @@
+.parts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3em;
+    padding:1em ;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align:left;
+}
+.parts h2{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-right: 50px;
+    padding-top:  10px;
+    padding-left: 50px;
+}
+.partone{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top:30px ;
+    border-right: 1px solid #C0C0C0 ;
+}
+.parttwo{
+    margin-top:30px ;
+    border-right: 1px solid #C0C0C0 ;
+}
+.partthree{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top:30px ;
+}
+.parts p{
+    font-size: 20px;
+    margin-top:0;
+    margin-bottom:0;
+    padding:10px 50px 0 50px; } 
+.parts button{
+    float: left;
+    background: #C0C0C0;
+    width: 80%;
+    padding: 14px 40px;
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 8px;
+    box-shadow: 0 3px  0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+}
+footer{
+    background: black;
+    color: white;
+    height: 60px;
+    text-align: left;
+    padding: 10px;  
+    font-size: 20px; 
+    font-family: 'Roboto', sans-serif;
+
+}

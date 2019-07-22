@@ -1,0 +1,50 @@
+.create-profile{
+  display: flex;
+    justify-content: flex-end;
+    align-items:flex-start;
+    padding-top: 20px;
+    padding-right:20px;
+    background-image: url(../starter_code/images/coworking.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:100%;
+    height: 70%;
+}
+.MeetYourMatch{
+    overflow: hidden;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px; 
+    padding: 0;
+    width:42vh;
+    height: 70vh;
+background:rgba(255,255,255, 0.7);
+border: 1px solid black;
+box-shadow:5px 5px  15px black;  
+align-items: center;
+
+}
+.MeetYourMatch h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    top:10px;
+    margin: 0;
+}
+.MeetYourMatch p{
+    font-family: 'Muli', sans-serif;
+    padding:20px;
+    font-size: 20px;
+    margin: 0;
+
+}
+.MeetYourMatch button{
+    background-color: yellow;
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+
+
+
+}
