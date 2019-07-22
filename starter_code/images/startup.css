@@ -1,0 +1,140 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 150px;
+    border-bottom: yellow solid 3px;
+  }
+  .logo {
+    color: yellow;
+    font-size: 40px;
+    padding: 10px;
+    font-family: 'Geostar';
+  }
+  nav {
+    /* justify-items: flex-end; */
+    align-self: flex-end;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  nav a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .are {
+    text-decoration: yellow underline;
+  }
+  .taste {
+    text-decoration: line-through;
+    color: gray;
+    text-align: center;
+  }
+  main {
+    background-image: url('../images/coworking.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  section {
+    height: 60px;
+    background-color: lightgray;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .text-block {
+    position: absolute;
+    bottom: 190px;
+    left: 750px;
+    background-color: rgba(255, 255, 255,0.6);
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Playfair Display', serif;
+  }
+  footer{
+      color: aliceblue;
+  background-color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: 'Pacifico';
+font-size: 20px;
+
+  }
+  .w3-button {width:200px;
+  height: 55px;
+  }
+
+
+  .left{
+display: flexbox;
+/*align-content:  right;
+*/
+  }
+  .center{
+display: flexbox;
+/*
+align-items: center;
+*/
+  }
+
+  .right {
+    display: flexbox;
+  }
+
+
+
+
+  .left {
+    display: grid;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    font-family: 'Fjalla+One';
+    font-size: 18px ;
+  }
+  
+  .center {
+    /*display: flex;*/
+    display: grid;
+    float: center;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    font-family: 'Fjalla+One';
+  }
+  
+  .right {
+    display: grid;
+    float:  right;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    font-family: 'Fjalla+One';
+  }
+  
+  
+  *{
+    box-sizing: border-box;
+  }
+  /*
+  .vl {
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+  */
+  
+  
