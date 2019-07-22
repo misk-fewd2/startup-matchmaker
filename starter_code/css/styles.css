@@ -1,0 +1,117 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 100px;
+    border-bottom: yellow solid 3px;
+  }
+  .logo {
+    color: yellow;
+    font-size: 40px;
+    padding: 10px;
+  }
+  nav {
+    /* justify-items: flex-end; */
+    align-self: flex-end;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  nav a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .are {
+    text-decoration: yellow underline;
+  }
+  .taste {
+    text-decoration: line-through;
+    color: gray;
+    text-align: center;
+  }
+  main {
+    background-image: url('../images/coworking.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  section {
+    height: 50px;
+    background-color: lightgray;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+.create-profile{
+  border: 2px black;
+  box-shadow: 2px;
+  float: right;
+  font-size: 20px;
+  font-style: initial;
+  font-family: fantasy;
+  width: 624px;
+  height: 466px;
+  margin: 91px;
+  display: inline-block;
+  justify-content: right;
+  background: rgba(226, 223, 223, 0.212);
+}
+
+  .button1{
+  font-size: 39px;
+  font-style: initial;
+  font-family: fantasy;
+  cursor: pointer;
+  border: none;
+  padding: 24px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: rgb(250, 233, 0);
+  margin: 17px 190px;
+  }
+
+ 
+ }
+ .grid-container {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 30px;
+  height: 300px;
+  padding: 20px 0;
+  font-size: 30px;
+  }
+
+  .item1{
+  width: 3px;
+    flex: 2;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .item2{
+    width: 3px;
+    flex: 2;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .item3{
+    width: 3px;
+    flex: 2;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
