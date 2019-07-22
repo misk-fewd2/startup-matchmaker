@@ -1,0 +1,92 @@
+header{
+    display: flex;
+    background: black;
+    justify-content: space-around;
+    height:100px;
+    border-bottom: yellow solid 3px;
+}
+
+.logo{
+    color:yellow;
+   font-size: 40px;
+}
+nav ul li{
+    display: inline;
+    color: white;
+     padding: 5px;
+}
+.taste{
+    text-decoration:line-through;
+    color:gray;
+    text-align: center;
+}
+main{
+    position: relative;
+    background-image:url(../images/coworking.jpg);
+    height:500px;
+
+}
+
+a{
+    color: white;
+}
+
+.section1{
+    text-align: center;
+    background-color: gainsboro;
+    height: 50px;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.section2{
+ display: flex; 
+ flex-direction:row;
+justify-content: space-around;
+}
+
+.section3{
+    position: relative;
+    opacity: 0.8;
+   background-color: white;
+   text-align: center;
+   padding: 20px;
+   margin:90px 20px;
+ background-clip:border-box; 
+ border:black transparent 1px;
+
+}
+.flex{
+    display: flex;
+    justify-content: flex-end;
+  
+}
+.borders{
+    padding:20px;
+    border-left: gray solid 1px;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    height: 40px;
+    padding:1px;
+}
+
+button{
+    background-color:gainsboro;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+.yellowbutton{
+    background-color: yellow;
+}
+
+ a:hover{
+    color:yellow;
+    
+}
+button:hover{
+    background-color:white;
+}
