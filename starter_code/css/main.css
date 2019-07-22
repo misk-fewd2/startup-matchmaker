@@ -1,0 +1,111 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: black;
+  height: 100px;
+  border-bottom: yellow solid 3px;
+}
+.logo {
+  color: yellow;
+  font-size: 40px;
+  padding: 10px;
+}
+nav {
+  /* justify-items: flex-end; */
+  align-self: flex-end;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px;
+}
+.are {
+  text-decoration: yellow underline;
+}
+.taste {
+  text-decoration: line-through;
+  color: gray;
+  text-align: center;
+}
+main {
+  background-image: url('../images/coworking.jpg');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  height: 50px;
+  background-color: lightgray;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.footer{
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px;
+}
+
+.item{
+  width: 1fr;
+  border-right: 1px lightgray solid;
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.item:last-of-type{
+  border-right: none;
+}
+
+.footer2{
+  height: 60px;
+  background-color: black;
+  padding: 5px;
+}
+
+.footer2 h3{
+  color: white;
+
+}
+
+button{
+  width: 350px;
+  height: 60px;
+  border-radius: 3px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.border{
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  opacity: 0.6;
+  border: 2px solid black;
+  height: 450px;
+  width: 350px;
+}
+
+.create-profile{
+  padding: 20px;
+  line-height: 1.8;
+}
+
+.create-profile button{
+  width: 300px;
+  background-color: yellow;
+
+}
+
+.gr{
+  display: flex;
+  justify-content: flex-end;
+  padding: 100px;
+}
