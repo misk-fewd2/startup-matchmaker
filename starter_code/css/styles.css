@@ -1,0 +1,183 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 100px;
+    border-bottom: yellow solid 3px;
+}
+
+.logo {
+    font-family: 'Merriweather', serif;
+    color: yellow;
+    font-size: 40px;
+    padding: 10px 30px;
+}
+
+nav {
+    width: 830px;
+    align-self: flex-end;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.up {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+em {
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+}
+
+ins {
+    text-decoration: yellow underline;
+}
+
+main {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('../images/coworking.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.gray {
+    height: 50px;
+    background-color: lightgray;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.create-profile {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 438px;
+    height: 530px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 50px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    padding: 30px;
+}
+
+.create-profile h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    margin: 0px;
+}
+
+.create-profile h2 {
+    font-family: 'open sans', sans-serif;
+    font-size: 32px;
+    margin: 0px;
+}
+
+.create-profile button {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: yellow;
+    width: 430px;
+    height: 69px;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.sub-main {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.sub1,
+.sub2,
+.sub3 {
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    width: 350px;
+    height: 310px;
+}
+
+.sub1 h1,
+.sub2 h1,
+.sub3 h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    margin: 0px;
+    float: center;
+}
+
+.sub1 h2,
+.sub2 h2,
+.sub3 h2 {
+    font-size: 29px;
+    margin: 0px;
+    font-family: 'open sans', sans-serif;
+    font-size: 30px;
+}
+
+.sub1 button,
+.sub2 button {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: lightgray;
+    border-radius: 8px;
+    width: 330px;
+    height: 65px;
+    margin: 40px 0px;
+}
+
+.sub3 button {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: lightgray;
+    border-radius: 8px;
+    width: 330px;
+    height: 65px;
+    margin: 80px 0px;
+}
+
+hr {
+    Margin: 10px;
+}
+
+.black {
+    font-family: 'Oswald', sans-serif;
+    height: 50px;
+    color: #fff;
+    background-color: black;
+    text-align: left;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
