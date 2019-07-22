@@ -1,0 +1,191 @@
+
+header{
+    display: flex;
+    background-color:black;
+    height:100px;
+    justify-content: space-between;
+    border-bottom: yellow solid 3px;
+}
+
+.logo{
+    color: yellow;
+    font-size: 32px;
+    padding: 10px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin-right: 5px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 7px;
+}
+
+
+nav ul li.custom{
+    font-family: 'Oswald', sans-serif;
+}
+/*-------------gray box styling--------------------------*/
+
+.taste{
+    color:gray;
+    text-decoration: line-through;
+}
+.are {
+    text-decoration: yellow underline;
+  }
+  
+
+section{
+    background: lightgray;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Noto Serif', serif;
+
+}
+/*-------------Img Section--------------------------*/
+
+.img_section{
+
+    display: flex;
+    background-image: url(../images/coworking.jpg);
+    background-position: 100% 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   font: bold;
+   color: white;
+   height: 500px;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.join_box{
+    border: 2px rgb(117, 19, 19);
+    padding: 35px;
+    background: rgba(255, 255, 255, 0.801);
+    height: 270px;
+    width: 200px; 
+    margin: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.join_box h2{
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.join_box p{
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.join_box button{
+  background-color: yellow; 
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px ;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.274);
+  transition: all 0.3s ease 0s;
+
+}
+
+.join_box button:hover {
+    background-color: black;
+    box-shadow: 0px 15px 20px rgba(87, 87, 86, 0.4);
+    color: #fff;
+    transform: translateY(-6px);
+  }
+
+/*-------------Grid Section--------------------------*/
+.main{
+    display: grid;
+    grid-template-columns: 300fr 300fr 300fr;
+    grid-auto-flow: column;
+    padding: 10px;
+    overflow: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.main .col{
+    border-left: rgb(235, 235, 235) solid 1px;
+    padding-left: 15px;
+
+
+}
+
+.main .col:first-child{
+    border:none;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button:hover {
+    background-color: black;
+    box-shadow: 0px 15px 20px rgba(149, 149, 150, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+  .button:visited {
+    background-color: rgb(163, 162, 162);
+    box-shadow: 0px 15px 20px rgba(149, 149, 150, 0.4);
+    color: #fff;
+  }
+
+  /*-------------footer--------------------------*/
+
+  .footer{
+      display: flex;
+      align-items: center;
+      height: 40px;
+      width: 100%;
+      background: black;
+      color: white;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+  .footer div{
+      padding-left: 10px;
+  }
