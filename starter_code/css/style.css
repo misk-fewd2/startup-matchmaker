@@ -1,0 +1,116 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 100px;
+    border-bottom: yellow solid 3px;
+    text-transform: capitalize;
+}
+
+.logo {
+    color: yellow;
+    font-size: 40px;
+    padding: 10px;
+}
+
+nav {
+    float: left;
+    align-self: flex-end;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.are {
+    text-decoration: yellow underline;
+}
+
+.taste {
+    text-decoration: line-through;
+    color: gray;
+    text-align: center;
+}
+
+main {
+    background-image: url('./coworking.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    height: 50px;
+    background-color: lightgray;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+.create-profile {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(250, 252, 251, 2);
+    height: 300px;
+    width: 200px;
+    border: gray solid 1px;
+    margin: 50px;
+    padding: 2px;
+    float: right;
+    text-transform: capitalize;
+}
+
+p {
+    display: block;
+    text-align: left;
+    margin: 3%;
+    text-transform: capitalize;
+}
+
+button {
+    background-color: yellow;
+    height: 40px;
+    width: 150px;
+    font: bold black;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.last {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5% 5%;
+    margin: 20px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+footer {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 50px;
+    text-align: center;
+}
+
+.end {
+    color: aliceblue;
+    box-align: center;
+    text-transform: capitalize;
+}
+
+.center {
+    align-self: flex-end;
+    text-transform: capitalize;
+}
