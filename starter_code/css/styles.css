@@ -1,0 +1,164 @@
+body{
+	margin: 0;
+	padding: 0;
+	min-width: 800px;
+	font-family: 'Roboto', sans-serif;
+}
+
+				/*HEADER*/
+
+header{
+	display: flex;
+	flex-direction: column; 
+	align-content: space-between;
+	background-color: black;
+	border-bottom: 5px yellow solid;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+li a:hover{
+	text-decoration: underline;
+}
+.logo{
+	color: yellow;
+	font-family: 'Merriweather', serif;
+	padding: 15px;
+	font-size: 32px;
+	font-weight: bold;
+}
+.nav{
+	align-self: flex-end;
+	padding: 15px 30px;
+
+}
+.nav li{
+	color: white;
+	margin-right: 15px;
+	display: inline;
+	font-size: 20px;
+
+}
+.bold{
+	font-weight: 900;
+}
+.brains{
+	height: 70px;
+	font-family: 'Merriweather', serif;
+	font-size: 32px;
+	background-color: #b7b8b6;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.taste{
+	color: gray;
+	text-decoration: line-through;
+}
+.are{
+	border-bottom:3px solid yellow;
+}
+
+					/*BODY*/
+
+.pic{
+	display:flex;
+	justify-content: flex-end;
+	background-image: url(../images/coworking.jpg);
+	height: 500px;
+	min-width: 800px;
+	margin-bottom: 20px;
+}
+.meet{
+	box-sizing: border-box;
+	height: 450px;
+	width: 30%;
+	min-width: 400px;
+	padding: 30px;
+	text-align: left;
+	background-color: rgba(255, 255, 255,0.75);
+	margin: 20px;
+	box-shadow: 5px 5px 15px 0px black;
+}
+.meet p{
+	font-size: 22px;
+	line-height: 1.5;
+}
+.meet h2{
+	font-weight: 900;
+	font-size: 32px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.meet .button{
+	height: 50px;
+	display: flex;
+	color: black;
+	justify-content: center;
+	align-items: center;
+	background-color: yellow;
+	box-shadow: 0px 3px 0px #ede439;
+	border-radius: 5px;
+	font-weight: 900;
+	font-size: 24px;
+	margin-top: 50px;
+}
+.meet .button:hover{
+	background-color: #d5de2f;
+	box-shadow: 0px 3px 0px #c4cc2b;
+}
+.options{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-bottom: 20px; 
+}
+.options div{
+	border-right: 1px solid black;
+	text-align: left;
+	padding: 0 20px;
+}
+.options p,h2{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.options p{
+	font-size: 20px;
+	line-height: 1.5;
+}
+.options h2{
+	font-family: 'Merriweather', serif;
+	font-weight: 900;
+	font-size: 28px;
+}
+
+.options div:last-child{
+	border: none;
+}
+.options .button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #bdbdbd;
+	height: 50px;
+	margin-top: 30px;
+	padding: 0;
+	color: black;
+	font-size: 18px;
+	font-weight: 900;
+	border-radius: 5px;
+	box-shadow: 0px 3px 0px gray;
+}
+.options .button:hover{
+	background-color: #7d7d7c;
+}
+.footer{
+	display: flex;
+	align-items: center;
+	background-color: black;
+	color: white;
+	padding-left: 20px; 
+	height: 50px;
+	
+}
