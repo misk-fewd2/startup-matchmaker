@@ -1,0 +1,87 @@
+header{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    height: 100px;
+    border-bottom: 20px solid yellow;
+}
+.logo
+{
+    color: yellow;
+
+}
+nav ul li {
+    display: inline;
+    color: white;
+    
+
+}
+.HStartup{
+    color: yellow;
+}
+header nav a{
+     color:white;
+     display: block;
+     padding: 20px 20px;
+}
+.because {
+    
+        font-family: 'Merriweather', serif;
+        text-align: center;
+        margin: 0;
+        padding: 1em 3%;
+        font-size: 1.25em;
+        line-height: 1em;
+        font-style: italic;
+        background: #C6C6C6;
+        border-top: 1px solid #AAA;
+}
+.pic{
+    background: url(../images/coworking.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 5%;
+
+}
+.wra{
+    max-width: 1000;
+
+}
+.blu {
+    background: rgba(255,255,255,.8);
+    width: 40%;
+    padding: 5%;
+    float: right;
+}
+h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.button {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+    background: yellow;
+    color: black;
+    display: block;
+}
+.tou{
+    overflow: hidden;
+    padding: 3%;
+    background: #AAA;
+
+}
+.to{
+    float: left;
+    width: 27%;
+    padding: 2% 3%;
+    box-shadow: inset -1px 0 0 rgba(0,0,0,.15)
+}
+h3{
+    font-family: 'Merriweather', serif;
+    font-size: 1.25em;
+    font-weight: bold;
+}
