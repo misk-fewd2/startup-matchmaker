@@ -1,0 +1,165 @@
+/* **HEADER** */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 100px;
+    border-bottom: yellow solid 3px;
+}
+
+.logo {
+    color: yellow;
+    font-size: 40px;
+    padding: 10px;
+    margin-top:10px;
+}
+
+nav {
+    /* justify-items: flex-end; */
+    align-self: flex-end;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.find-tabs {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* **END OF HEADER** */
+
+/*************************************/
+
+/* **BODY** 
+
+ BODY/SECTION */
+
+section {
+    height: 50px;
+    background-color: lightgray;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.are {
+    text-decoration: yellow underline;
+}
+
+.taste {
+    text-decoration: line-through;
+    color: gray;
+    text-align: center;
+}
+
+/* BODY/MAIN */
+main {
+    background-image: url('../images/coworking.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.create-profile-box {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 20px;
+}
+
+.create-profile {
+    height: 260px;
+    width: 180px;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.create-profile h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button-layout-2 {
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px 25px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #EDFF00;
+    border-radius: 5px;
+}
+
+/* BODY/FLEXBOX-OPTIONS */
+
+.flex-div {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+}
+
+.body-options {
+    display: flex;
+    height: 200px;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 12pxpx;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.body-options h2 {
+    font-family: serif;
+    font-size: 25px;
+}
+
+.button-layout-1 {
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px 25px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #C6C6C6;
+    border-radius: 5px;
+
+}
+
+.divider {
+    width: 2px;
+    margin: 6px 0;
+    background: #C6C6C6;
+    margin-bottom: 30px;
+
+}
+
+/* **END OF BODY**/
+
+/*************************************/
+
+/* **FOOTER** */
+.copy-rights {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+}
+
+.copy-rights p{
+    margin:10px;
+}
+/* **END OF FOOTER** */
