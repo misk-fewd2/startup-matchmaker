@@ -1,0 +1,178 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 100px;
+    border-bottom: yellow solid 3px;
+}
+.logo{
+    color: yellow;
+    font-size: 40px;
+    padding: 10px;
+}
+nav{
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    display: inline;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+}
+.taste{
+    text-decoration: strikthrough;
+    color: gray;
+    text-align: center;
+    text-decoration-line: line-through;
+}
+.word{
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+}
+.inner-header{
+    background-color: gainsboro;
+    padding: 7px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.design{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: flex-end;
+    height: 350px;
+    background-image: url('../images/coworking.jpg')
+}
+.design_1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 200px;
+    justify-content: right;
+    padding-right: 15px;
+    background-color: rgba(172, 179, 172,0.7);
+}
+.text:nth-of-type(1){
+    padding-top: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text:nth-of-type(2){
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text:nth-of-type(3){
+    align-content: center;
+    align-items: center;
+}
+.btn_1{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: yellow;
+    width: 230px;
+    padding: 10px;
+    border: 1px yellow solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.info{
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: 32% 1% 32% 1% 33%;
+    padding-bottom: 10px;
+}
+.createProfile{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-left: 16px;
+}
+.once:nth-of-type(1){
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.once:nth-of-type(2){
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn_2{
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #9EA0B0;
+    border: #9EA0B0 1px solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 7px;
+}
+.line_1{
+    margin: 7px;
+    border: gainsboro 1px solid;
+}
+.findDeveloper{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.twice:nth-of-type(1){
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.twice:nth-of-type(2){
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn_3{
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #9EA0B0;
+    border: #9EA0B0 1px solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 7px;
+}
+.line_2{
+    margin: 7px;
+    border: gainsboro 1px solid;
+}
+.findDesigner{
+    display: flex;
+    flex-direction: column;
+    padding-right: 16px;
+    width: 200px;
+}
+.third:nth-of-type(1){
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.third:nth-of-type(2){
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn_4{
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #9EA0B0;
+    border: #9EA0B0 1px solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 7px;
+}
+footer{
+    background-color: black;
+    padding: 10px;
+}
+
+.end{
+    padding-left: 10px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+}
