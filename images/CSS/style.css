@@ -1,0 +1,47 @@
+heheader {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: black;
+  height: 100px;
+  border-bottom: yellow solid 3px;
+}
+.logo {
+  color: yellow;
+  font-size: 40px;
+  padding: 10px;
+}
+nav {
+  /* justify-items: flex-end; */
+  align-self: flex-end;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px;
+}
+.are {
+  text-decoration: yellow underline;
+}
+.taste {
+  text-decoration: line-through;
+  color: gray;
+  text-align: center;
+}
+main {
+  background-image: url('../images/coworking.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  height: 50px;
+  background-color: lightgray;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
